@@ -1,0 +1,15 @@
+{
+  "name": "zorvex-components-v2-handbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent Components V2 handbook and examples maintained by Zorvex Development",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.0"
+  },
+  "scripts": {
+    "check:syntax": "node --check examples/quick-start.js && node --check examples/interaction-router.js"
+  }
+}
